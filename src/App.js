@@ -5,8 +5,13 @@ import './App.css';
 import Home from './pages/Home';
 import Podcasts from './pages/Podcasts';
 import Media from './pages/Media';
+import Schedule from './pages/Schedule';
 import Contact from './pages/Contact';
-import Navbar from './components/Navbar';
+import OurStory from './pages/OurStory';
+import MissionStatement from './pages/MissionStatement';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+
 
 
 
@@ -22,8 +27,14 @@ function App() {
             <Route path="/podcast" element={<Podcasts />} />
             <Route path="/media" element={<Media />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/schedule" element={<Schedule />} />
+            <Route path="/our-story" element={<OurStory />} />
+            <Route path="/mission-statement" element={<MissionStatement />} />
+
+            
           </Routes>
         </div>
+        <Footer />
       </BrowserRouter></>
 
   );

@@ -7,6 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaMixcloud } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa";
 import { FaPause } from "react-icons/fa";
+import Dropdown from "./Dropdown";
 
 import Ticker, { FinancialTicker, NewsTicker } from 'nice-react-ticker';
 import { IconContext } from "react-icons";
@@ -57,17 +58,11 @@ const Navbar = () => {
                             </button>
                         </NavLink>
                     </li>
-                    <li className='active:border-blue-400 mr-2'>
-                        <NavLink to='/about' className={({ isActive }) =>
-                            isActive ? 'opacity-100 border-b border-black' : 'opacity-50 hover:opacity-100 '
-                        } >
-                            <button className="pointer-events-auto">
-                                ABOUT
-                            </button>
-                        </NavLink>
+                    <li>
+                        <Dropdown />
                     </li>
                     <li className='active:border-blue-400 mr-2'>
-                        <NavLink to='/media' className={({ isActive }) =>
+                        <NavLink to='/schedule' className={({ isActive }) =>
                             isActive ? 'opacity-100 border-b border-black' : 'opacity-50 hover:opacity-100 border-dashed'
                         }>
 

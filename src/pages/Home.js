@@ -25,7 +25,7 @@ const Home = () => {
                     <MultipleShows shows={ShowArray} />
                 </div>
                 <div className=" ">
-                    <NavLink to='/contact' className='flex justify-center items-center font-GTWalsheim'>
+                    <NavLink to='/schedule' className='flex justify-center items-center font-GTWalsheim'>
                         <h1 className="border-b border-b-black text-lg m-1">Full Schedule</h1>
                         <FaArrowRight />
                     </NavLink>
@@ -114,9 +114,6 @@ const Home = () => {
                     </div>
                 </div>
             </section >
-            <footer>
-                <Footer />
-            </footer>
 
         </div >
     )
