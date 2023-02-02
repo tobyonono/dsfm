@@ -13,7 +13,8 @@ module.exports = {
         'nitti': ['Nitti', 'mono'],
         'guyot': ['Guyot', 'sans'],
         'lora':['"Space Grotesk"', 'sans'],
-        'GTWalsheim':['GTWalsheimPro', 'sans']
+        'GTWalsheim':['GTWalsheimPro', 'sans'],
+        'calibre':['Calibre', 'sans']
       },
       animation: {
         'colour-overlay': 'colourFlow 90000ms 0ms infinite linear',

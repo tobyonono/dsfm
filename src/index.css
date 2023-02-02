@@ -57,4 +57,24 @@ code {
   url("./fonts/GTWalsheimPro/GTWalsheimPro-Medium.woff")
 }
 
+@font-face{
+  font-family: "Calibre";
+  font-weight:400;
+  src:local("Calibre"),
+  url("./fonts/Calibre/Calibre-Regular.otf")
+}
+
+@font-face{
+  font-family: "Calibre";
+  font-weight:700;
+  src:local("Calibre"),
+  url("./fonts/Calibre/Calibre-Bold.otf")
+}
+
+@font-face{
+  font-family: "Calibre";
+  font-weight:lighter;
+  src:local("Calibre"),
+  url("./fonts/Calibre/Calibre-Light.otf")
+}
 
