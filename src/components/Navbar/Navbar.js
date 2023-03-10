@@ -17,7 +17,7 @@ import { useState, useRef } from "react";
 const Navbar = () => {
 
     const [isPlaying, setIsPlaying] = useState(false);
-    const audioRef = useRef(new Audio('https://dublinsouthfm.radioca.st/live'));
+    const audioRef = useRef(new Audio('https://dublinsouthfm.radioca.st/stream'));
 
     const play = () => {
         setIsPlaying(true);
