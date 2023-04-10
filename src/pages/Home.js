@@ -6,13 +6,16 @@ import { FaArrowRight } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import img10 from '../images/000043.JPG';
 import Footer from "../components/Footer/Footer";
+import Navbar from "../components/Navbar/Navbar";
 
 const Home = () => {
 
     return (
         <div>
-            <section className="h-full w-full  bg-white text-black">
-                <div className="h-full ">
+            <section className="h-full w-full flex flex-col  bg-white text-black">
+            
+
+                <div className="flex-grow">
                     <img src={img10} />
                 </div>
 

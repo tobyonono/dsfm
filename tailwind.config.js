@@ -12,13 +12,15 @@ module.exports = {
       fontFamily: {
         'nitti': ['Nitti', 'mono'],
         'guyot': ['Guyot', 'sans'],
-        'lora':['"Space Grotesk"', 'sans'],
-        'GTWalsheim':['GTWalsheimPro', 'sans'],
-        'calibre':['Calibre', 'sans']
+        'lora': ['"Space Grotesk"', 'sans'],
+        'GTWalsheim': ['GTWalsheimPro', 'sans'],
+        'calibre': ['Calibre', 'sans']
       },
       animation: {
         'colour-overlay': 'colourFlow 90000ms 0ms infinite linear',
         'flicker-animation': 'flickerAnimation 2000ms 0ms infinite linear',
+        'marquee': 'marquee 30s linear infinite',
+        'marquee2': 'marquee2 30s linear infinite'
       },
       keyframes: {
         colourFlow: {
@@ -32,9 +34,17 @@ module.exports = {
 
         },
         flickerAnimation: {
-          '0%': { opacity: '1'},   
-          '50%': {opacity: '0'},
-          '100%': {opacity: '1'},      
+          '0%': { opacity: '1' },
+          '50%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' }
+        },
+        marquee2: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' }
         }
       }
     },
