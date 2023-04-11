@@ -88,7 +88,7 @@ export const PodcastArray =[
     {
         name:'The Wishing Well',
         desc:'Slow R&B, Slow Jazz, Slow Life',
-        link:<iframe width="100%" height="140" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2FDublinSouthFMCommunityRadio%2Fplaylists%2Fthe-wishing-well%2F" frameborder="0"></iframe>,
+        link:<iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2FDublinSouthFMCommunityRadio%2Fplaylists%2Fthe-wishing-well%2F" frameborder="0" ></iframe>,
         genre:['Talk', 'jazz', 'afrobeats', ],
         image:'https://pbs.twimg.com/media/FnaeMxqWQAMqN9y?format=jpg&name=small',
         date:'11:00am - 12:00pm',
@@ -97,7 +97,7 @@ export const PodcastArray =[
     {
         name:'Community Connection',
         desc:'Sunny Friday Morning',
-        link:<iframe  src="https://open.spotify.com/embed/show/3IuxIg2Vd8OPPKYebzDAP4?utm_source=generator" width="100%" height="142"  allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
+        link:<iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2FDublinSouthFMCommunityRadio%2Fplaylists%2Fcommunity-connection%2F" frameborder="0" ></iframe>,
         genre:['Talk', 'Music'],
         image:'https://pbs.twimg.com/media/Fnau4yGXEAk2Tdx?format=jpg&name=small',
         date:'12:00pm - 1:00pm',
@@ -106,7 +106,7 @@ export const PodcastArray =[
     {
         name:'Southside Players',
         desc:'Sunny Friday Morning',
-        link:<iframe title="Embed Player" width="100%" height="80px" src="https://embed.acast.com/5b0721e8e920b3130bdff6b0/63d288a074da94001174b9be" scrolling="no" frameBorder="0" style={{border: 'none', overflow: 'hidden'}}></iframe>,
+        link:<iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2FDublinSouthFMCommunityRadio%2Fplaylists%2Fsouthside-players%2F" frameborder="0" ></iframe>,
         genre:['Music'],
         image:'https://pbs.twimg.com/media/Fm7fXkSWABAu4wf?format=jpg&name=small',
         date:'1:00pm - 2:00pm',
@@ -115,18 +115,45 @@ export const PodcastArray =[
     {
         name:'Friday Forum',
         desc:'Sunny Friday Morning',
-        link:<iframe src="https://open.spotify.com/embed/playlist/4tZZU27KBx9le8rBXRkQ3G?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
+        link:<iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2FDublinSouthFMCommunityRadio%2Fplaylists%2Ffriday-forum%2F" frameborder="0" ></iframe>,
         genre:['Talk'],
-        image:img4,
+        image:'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/4/5/7/2/2349-b713-4758-98cc-bfc29d494150',
         date:'2:00pm - 3:00pm',
         location:'Berlin'
     },
     {
         name:'Sunday Night w/ Keith McLoughlin',
         desc:'Sunny Friday Morning',
-        link:<iframe src="https://open.spotify.com/embed/playlist/4tZZU27KBx9le8rBXRkQ3G?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
+        link:<iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fkeithmcl%2F" frameborder="0" ></iframe>,
+        genre:['Talk'],
+        image:'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/8/8/b/f/4768-c539-44fa-a65a-5855c34bb07b',
+        date:'2:00pm - 3:00pm',
+        location:'Berlin'
+    },
+    {
+        name:'The Marlon Show',
+        desc:'Sunny Friday Morning',
+        link:<iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2FMarlonDublinSouthFM%2F" frameborder="0" ></iframe>,
+        genre:['Talk'],
+        image:'https://scontent-dub4-1.xx.fbcdn.net/v/t39.30808-6/306794318_398884729086415_2581402924551107107_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=LawKoskLdTwAX_79TC7&_nc_ht=scontent-dub4-1.xx&oh=00_AfD31W7ArVSa6Wn4GF3Ve8nYLp5P2QzMVdXGoFvWkKuYLw&oe=643B5AD2',
+        date:'2:00pm - 3:00pm',
+        location:'Berlin'
+    },
+    {
+        name:'Dramatic Dublin',
+        desc:'Sunny Friday Morning',
+        link:<iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2FDublinSouthFMCommunityRadio%2Fplaylists%2Fdramatic-dublin%2F" frameborder="0" ></iframe>,
         genre:['Talk'],
         image:img4,
+        date:'2:00pm - 3:00pm',
+        location:'Berlin'
+    },
+    {
+        name:'Destination Anywhere',
+        desc:'Sunny Friday Morning',
+        link:<iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2FDublinSouthFMCommunityRadio%2Fplaylists%2Fdestination-anywhere%2F" frameborder="0" ></iframe>,
+        genre:['Talk'],
+        image:'https://pbs.twimg.com/media/Fm1iGqWWAAAxfmd?format=jpg&name=medium',
         date:'2:00pm - 3:00pm',
         location:'Berlin'
     },

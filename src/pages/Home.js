@@ -2,18 +2,28 @@ import { ShowArray } from "../components/UpcomingShows/ShowInfo";
 import { PodcastArray } from "../components/UpcomingShows/ShowInfo";
 import MultipleShows from "../components/UpcomingShows/MultipleShows";
 import MultiplePodcasts from "../components/Podcast/MultiplePodcasts";
+import { IconContext } from "react-icons";
 import { FaArrowRight } from "react-icons/fa";
+import {FiX} from "react-icons/fi";
 import { NavLink } from "react-router-dom";
 import img10 from '../images/000043.JPG';
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
+import { useState } from "react";
 
 const Home = () => {
+
+    const [podcast, setPodcast] = useState('');
+    const [showPodcast, setShowPodcast] = useState(false);
+
+    const handleClick = () =>{
+        setShowPodcast(false)
+    }
 
     return (
         <div>
             <section className="h-full w-full flex flex-col  bg-white text-black">
-            
+
 
                 <div className="flex-grow">
                     <img src={img10} />
@@ -61,7 +71,7 @@ const Home = () => {
                     <p className="p-2 bg-white text-black rounded-xl focus:bg-slate-900 focus:rounded-xl shadow-[0_2px_0_0_rgb(0,0,0)] border-2 border-black transition ease-out active:scale-105" >Podcasts</p>
                 </div>
                 <div className="">
-                    <MultiplePodcasts shows={PodcastArray} />
+                    <MultiplePodcasts shows={PodcastArray} setPodcast={setPodcast} setShowPodcast={setShowPodcast} />
                 </div>
             </section>
             <section className="h-full w-full p-8 bg-black text-white">
@@ -117,6 +127,18 @@ const Home = () => {
                     </div>
                 </div>
             </section >
+            <section className="fixed bottom-0 left-0 right-0">
+                {showPodcast &&
+                    <div className="flex flex-row items-center transition ease-in-out">
+                        <div className="w-full transition ease-in-out">{podcast}</div>
+                        <IconContext.Provider value={{ margin: "0em", className: "m-0 hover:color-grey" }}>
+
+                        <button className="h-[60px] w-[60px] ml-auto text-white bg-black " onClick={handleClick}>
+                            <div className="hover h-full w-full inline-flex items-center justify-center hover:animate-spin"><FiX/></div></button>
+                        </IconContext.Provider>
+
+                    </div>}
+            </section>
 
         </div >
     )

@@ -1,7 +1,8 @@
-const SingleShow = ({ name, image, date, location, genre,  link }) => {
+const SingleShow = ({ name, image, date, location, genre,  link, setShowPodcast, setPodcast}) => {
 
-    const handleClick = (playlistLink) =>{
-      
+    const handleClick = (podcastLink) =>{
+      setPodcast(podcastLink);
+      setShowPodcast(true);
         
     }
     console.log(name);
@@ -18,9 +19,6 @@ const SingleShow = ({ name, image, date, location, genre,  link }) => {
                 </div>
                 <div className="flex flex-row">
                     <ul className="flex w-full flex-wrap rounded">{genreList}</ul>
-                </div>
-                <div>
-                    {link}
                 </div>
             </div>
         </div>
