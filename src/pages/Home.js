@@ -29,7 +29,7 @@ const Home = () => {
                     <img className='h-full w-full object-cover' src={img10} />
                     <div className="inset-0 absolute group-hover:bg-black/60 flex items-center justify-center  group-hover:visible group-hover:text-white/100" >
                         <div className="" >
-                        testing
+                        
                         </div>
                     </div>
                 </div>

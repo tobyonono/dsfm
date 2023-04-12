@@ -8,24 +8,7 @@ import img7 from '../../images/000043.JPG';
 
 
 export const ShowArray =[
-    {
-        name:'Out & About',
-        desc:'Slow R&B, Slow Jazz, Slow Life',
-        link:<iframe src="https://open.spotify.com/embed/playlist/7MB7fMB6cScyBT7VNyYrx9?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
-        genre:['Talk'],
-        image:'https://pbs.twimg.com/media/FnaTdbmWAAEqFhP?format=png&name=small',
-        date:'11:00am - 12:00pm',
-        location:'Dublin'
-    },
-    {
-        name:'Not Just Nashville',
-        desc:'Sunny Friday Morning',
-        link:<iframe src="https://open.spotify.com/embed/playlist/3g92WrKlqrvZgvpGdFuMV9?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
-        genre:['Talk', 'Music'],
-        image:'https://pbs.twimg.com/media/Fnau4yGXEAk2Tdx?format=jpg&name=small',
-        date:'12:00pm - 1:00pm',
-        location:'London'
-    },
+    
     {
         name:'Ult Cruze',
         desc:'Sunny Friday Morning',
@@ -46,7 +29,7 @@ export const ShowArray =[
         location:'Berlin'
     },
     {
-        name:'Mike @ The Mic',
+        name:'Midweek Mix',
         desc:'Sunny Friday Morning',
         link:<iframe src="https://open.spotify.com/embed/playlist/4tZZU27KBx9le8rBXRkQ3G?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
         genre:['Talk'],
@@ -81,7 +64,24 @@ export const ShowArray =[
         date:'8:00pm - 9:00pm',
         location:'Berlin'
     },
-    
+    {
+        name:'Out & About',
+        desc:'Slow R&B, Slow Jazz, Slow Life',
+        link:<iframe src="https://open.spotify.com/embed/playlist/7MB7fMB6cScyBT7VNyYrx9?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
+        genre:['Talk'],
+        image:'https://pbs.twimg.com/media/FnaTdbmWAAEqFhP?format=png&name=small',
+        date:'9:00pm - 10:00pm',
+        location:'Dublin'
+    },
+    {
+        name:'Not Just Nashville',
+        desc:'Sunny Friday Morning',
+        link:<iframe src="https://open.spotify.com/embed/playlist/3g92WrKlqrvZgvpGdFuMV9?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
+        genre:['Talk', 'Music'],
+        image:'https://pbs.twimg.com/media/Fnau4yGXEAk2Tdx?format=jpg&name=small',
+        date:'10:00pm - 11:00pm',
+        location:'London'
+    }
 ]
 
 export const PodcastArray =[

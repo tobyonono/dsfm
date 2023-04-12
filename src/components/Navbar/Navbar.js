@@ -115,7 +115,7 @@ const Navbar = () => {
                         <div className=" flex text-white items-center text-lg"><p className="mr-1">ON AIR</p> <span className="mr-1 animate-flicker-animation bg-[#e81717] w-7 h-7 inline-block rounded-full"></span></div>
                     </li>
                     <li className="flex items-center uppercase">
-                        <p className="px-2 text-lg font-bold">Signposts Of Your Life</p>
+                        <p className="px-2 text-lg font-bold">Mike @ The Mic</p>
                         <span>//</span>
                         <p className="px-2 text-lg">12:00pm - 1:00pm</p>
                     </li>
