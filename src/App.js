@@ -11,6 +11,7 @@ import OurStory from './pages/OurStory';
 import MissionStatement from './pages/MissionStatement';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import Volunteer from './pages/Volunteer';
 
 
 
@@ -30,6 +31,8 @@ function App() {
             <Route path="/schedule" element={<Schedule />} />
             <Route path="/our-story" element={<OurStory />} />
             <Route path="/mission-statement" element={<MissionStatement />} />
+            <Route path="/volunteer" element={<Volunteer />} />
+
 
             
           </Routes>

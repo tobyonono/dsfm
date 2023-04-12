@@ -25,8 +25,8 @@ const Home = () => {
             <section className="h-full w-full flex flex-col  bg-white text-black">
 
 
-                <div className="flex-grow">
-                    <img src={img10} />
+                <div className=" h-[calc(100vh_-_62px_-_53px)]">
+                    <img className='h-full w-full object-cover' src={img10} />
                 </div>
 
             </section>
