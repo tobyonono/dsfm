@@ -2,7 +2,7 @@ const MissionStatement = () => {
 
     return (
         <div>
-            <section className="h-full w-full p-8">
+            <section className=" hidden h-full w-full p-8">
                 <div className=" m-auto text-sm font-nitti mb-8 ">
                     <div className="grid grid-cols-2  m-auto">
                         <div className=" py-12 pr-12 text-left">
@@ -84,6 +84,30 @@ const MissionStatement = () => {
 
                 </div>
             </section >
+            <section className="relative grid grid-row-[repeat(12,_1fr)] items-center font-nitti text-sm shadow-lg rounded-lg">
+                <div className="relative h-72 sm:h-96 md:h-112 lg:h-cover-image -z-10">
+                    <img className="select-none object-cover bg-black/10 absolute h-full w-full left-0 top-0 right-0 bottom-0 object-center text-[transparent]"
+                        src='https://dublinsouthfm.ie/wp-content/webpc-passthru.php?src=https://dublinsouthfm.ie/wp-content/uploads/2021/09/Festival-PA-Caravan-1024x694.png&nocache=1' />
+                </div>
+                <div className="lg:-mt-24">
+                    <section>
+                        <div className="ml-auto mr-auto p-4 sm:p-8 bg-white max-w-5xl">
+                            <div className="max-w-none text-base">
+                                <h1 className="font-GTWalsheim text-5xl mb-6 font-bold underline">Our Mission</h1>
+                                <div className="text-left">
+                                <p className="font-sans mb-6">Dublin South Community Radio, 93.9 is a non-profit entity operating under the auspices of the Broadcasting Authority of Ireland (BAI).
+                                We provide a community communication platform accessible to all groups and individuals who have the democratic benefit of the community at heart.</p>
+                            <p className="font-sans mb-6">We embrace the AMARC Charters recognition that community radio is an ideal means of fostering freedom of expression and information, the development of culture, the freedom to form and confront opinions and active participation in local life: noting that different cultures and traditions lead to diversity of forms of community radio: the AMARC Charter identifies objectives which community radio stations world wide share and should strive to achieve.</p>
+                            <p className="font-sans mb-6">
+                                Dublin South community radio has been created and is run without distinction of race, creed, sex, caste, colour or age. We seek to achieve and maintain the highest principals of democratic and moral broadcast standards.
+                            </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
         </div>
     )
 

@@ -93,7 +93,6 @@ const Home = () => {
                         < li className={` font-nitti p-9  bg-cover text-sm uppercase shadow-lg rounded-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 cursor-pointer bg-[url('https://dublinsouthfm.ie/wp-content/webpc-passthru.php?src=https://dublinsouthfm.ie/wp-content/uploads/2021/09/Studio44.png&nocache=1')]`} >
                             <div className=" flex relative flex-col justify-between items-center w-full h-full">
                                 <div className='text-white flex justify-between w-full font-GTWalsheim text-xs'>
-                                    <p>Launch Project</p>
 
                                 </div>
                                 <div className="justify-center">
@@ -108,7 +107,6 @@ const Home = () => {
                         < li className={`font-nitti p-3 bg-cover  text-sm uppercase shadow-lg rounded-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 cursor-pointer bg-[url('https://dublinsouthfm.ie/wp-content/uploads/2021/10/ian-schneider-TamMbr4okv4-unsplash-scaled.jpg')]`} >
                             <div className=" flex relative flex-col justify-between items-center w-full h-full">
                                 <div className='text-white flex justify-between w-full font-GTWalsheim text-xs'>
-                                    <p>Launch Project</p>
 
                                 </div>
                                 <div className="justify-center">
@@ -122,8 +120,7 @@ const Home = () => {
                         </li >
                     </ul>
                     <div className="flex py-2 justify-between border-b border-b-white uppercase">
-                        <p>Playlists</p>
-                        <p>001</p>
+                        
                     </div>
                 </div>
             </section >
