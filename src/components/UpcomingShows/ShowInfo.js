@@ -12,7 +12,7 @@ export const ShowArray =[
         name:'Out & About',
         desc:'Slow R&B, Slow Jazz, Slow Life',
         link:<iframe src="https://open.spotify.com/embed/playlist/7MB7fMB6cScyBT7VNyYrx9?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
-        genre:['Talk', 'jazz', 'afrobeats', ],
+        genre:['Talk'],
         image:'https://pbs.twimg.com/media/FnaTdbmWAAEqFhP?format=png&name=small',
         date:'11:00am - 12:00pm',
         location:'Dublin'

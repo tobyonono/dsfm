@@ -8,8 +8,8 @@ const SingleShow = ({ name, image, date, location, genre,  link }) => {
     const genreList = genre.map((genre) => <li className="border rounded-2xl border-black p-1 my-1 mr-1 shadow-lg cursor-pointer text-xs">{genre}</li>)
     return (
     <article className="relative w-full p-3 border font-nitti text-sm uppercase shadow-lg rounded-lg z-0">
-        <div className="relative p-2 pb-4  h-full">
-            <div className="hover:brightness-50 cursor-pointer" onClick={() => handleClick(link)}>
+        <div className="relative p-2 pb-1  h-full">
+            <div className="" onClick={() => handleClick(link)}>
                 <img className ='aspect-square object-cover'src={image} loading="lazy" />
             </div>
             <div className="flex flex-wrap justify-between mt-1">

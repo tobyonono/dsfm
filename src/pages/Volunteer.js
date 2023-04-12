@@ -32,7 +32,7 @@ const Volunteer = () => {
                                         <div>
                                             <p className="font-GTWalsheim text-xl">What do you think you can bring to our station? Regardless of your experience, we want to hear from you.
 
-                                                Contact us <span className="hover:underline"><a>here</a></span> with your ideas!</p>
+                                                Contact us <span className="hover:underline cursor-pointer"><a>here</a></span> with your ideas!</p>
                                         </div>
                                     </div>
                                 </div>

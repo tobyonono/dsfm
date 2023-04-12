@@ -1,25 +1,32 @@
+import Marquee from "react-fast-marquee";
 
 const Footer = () => (
     <>
-    
-        {/*<section className="h-full w-full p-8 bg-black text-white">
-            <div className="flex py-2 justify-between border-b border-b-black uppercase text-sm font-nitti">
-                <p className="p-2 bg-white text-black rounded-xl focus:bg-slate-900 focus:rounded-xl shadow-[0_2px_0_0_rgb(0,0,0)] border-2 border-black transition ease-out active:scale-105" >Upcoming Shows</p>
+        <footer className="bg-black text-white">
+            <div>
+                <h1 className="font-GTWalsheim text-white text-3xl text-center py-4">SPONSORS & FRIENDS</h1>
             </div>
-            <div className="flex flex-row">
-                <figure>
-                    <img src="https://dublinsouthfm.ie/wp-content/uploads/2019/02/DSPSwebsiteF-1-e1654096909902.png"/>
-                </figure>
-                <figure>
-                    <img src="https://dublinsouthfm.ie/wp-content/uploads/2019/02/output-onlinepngtools.png"/>
-                </figure>
-
-            </div>
-</section> */}
+            <Marquee gradientColor={[0, 0, 0]} loop={0}>
+                <ul className="flex flex-row">
+                    <li><img className="w-40 aspect-[3/2] object-contain" src='https://dublinsouthfm.ie/wp-content/uploads/2019/02/02dlrcoco-removebg-preview.png' /></li>
+                    <li><img className="w-40 aspect-[3/2] object-contain" src='https://dublinsouthfm.ie/wp-content/uploads/2021/09/CCU_Logo_Light_Blue_White-removebg-preview.png' /></li>
+                    <li><img className="w-40 aspect-[3/2] object-contain" src='https://dublinsouthfm.ie/wp-content/uploads/2021/09/output-onlinepngtools-4.png' /></li>
+                    <li><img className="w-40 aspect-[3/2] object-contain" src='https://dublinsouthfm.ie/wp-content/uploads/2019/02/DSPSwebsiteF-1-e1654096909902.png' /></li>
+                    <li><img className="w-40 aspect-[3/2] object-contain" src='https://dublinsouthfm.ie/wp-content/uploads/2019/02/output-onlinepngtools.png' /></li>
+                    <li><img className="w-40 aspect-[3/2] object-contain" src='https://dublinsouthfm.ie/wp-content/uploads/2019/02/output-onlinepngtools-2.png' /></li>
+                    <li><img className="w-40 aspect-[3/2] object-contain" src='https://dublinsouthfm.ie/wp-content/uploads/2019/02/02dlrcoco-removebg-preview.png' /></li>
+                    <li><img className="w-40 aspect-[3/2] object-contain" src='https://dublinsouthfm.ie/wp-content/uploads/2021/09/CCU_Logo_Light_Blue_White-removebg-preview.png' /></li>
+                    <li><img className="w-40 aspect-[3/2] object-contain" src='https://dublinsouthfm.ie/wp-content/uploads/2021/09/output-onlinepngtools-4.png' /></li>
+                    <li><img className="w-40 aspect-[3/2] object-contain" src='https://dublinsouthfm.ie/wp-content/uploads/2019/02/DSPSwebsiteF-1-e1654096909902.png' /></li>
+                    <li><img className="w-40 aspect-[3/2] object-contain" src='https://dublinsouthfm.ie/wp-content/uploads/2019/02/output-onlinepngtools.png' /></li>
+                    <li><img className="w-40 aspect-[3/2] object-contain" src='https://dublinsouthfm.ie/wp-content/uploads/2019/02/output-onlinepngtools-2.png' /></li>
+                </ul>
+            </Marquee> 
+        </footer>
         <footer class="p-4 bg-black sm:p-6 font-nitti uppercase">
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
-                    <a href="https://flowbite.com/" class="flex items-center">
+                    <a href="#" class="flex items-center">
                         <img src="https://dublinsouthfm.ie/wp-content/uploads/2021/08/Comp-1-0-00-00-00.png" className="h-16 mr-3" alt="FlowBite Logo" />
                     </a>
                 </div>
@@ -31,7 +38,7 @@ const Footer = () => (
                                 <a href="https://flowbite.com/" class="hover:underline">Phone: +353 (0) 1296 0939</a>
                             </li>
                             <li>
-                                <a href="https://tailwindcss.com/" class="hover:underline">Email: info@dublinsouthfm.ie</a>
+                                <a href="mailto:info@dublinsouthfm.ie" class="hover:underline">Email: info@dublinsouthfm.ie</a>
                             </li>
                             <li>
                                 <a href="https://tailwindcss.com/" class="hover:underline"></a>
@@ -42,10 +49,10 @@ const Footer = () => (
                         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                         <ul class="text-gray-600 dark:text-gray-400">
                             <li class="mb-4">
-                                <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
+                                <a href="https://www.facebook.com/DublinSouthFM" class="hover:underline ">Facebook</a>
                             </li>
                             <li>
-                                <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
+                                <a href="https://www.twitter.com/DublinSouthFM" class="hover:underline">Twitter</a>
                             </li>
                         </ul>
                     </div>
@@ -56,7 +63,6 @@ const Footer = () => (
                                 <a href="#" class="hover:underline">Privacy Policy</a>
                             </li>
                             <li>
-                                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
                             </li>
                         </ul>
                     </div>
@@ -83,6 +89,7 @@ const Footer = () => (
                 </div>
             </div>
         </footer>
+
     </>
 
 

@@ -12,6 +12,8 @@ import MissionStatement from './pages/MissionStatement';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Volunteer from './pages/Volunteer';
+import { ScrollRestoration } from "react-router-dom";
+
 
 
 
@@ -19,7 +21,6 @@ import Volunteer from './pages/Volunteer';
 function App() {
   return (
     <>
-     
       <BrowserRouter>
       <Navbar />
         <div className='App'>
@@ -27,8 +28,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/podcast" element={<Podcasts />} />
             <Route path="/media" element={<Media />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/schedule" element={<Schedule />} />
+            <Route path="/#" element={<Contact />} />
+            <Route path="/#" element={<Schedule />} />
             <Route path="/our-story" element={<OurStory />} />
             <Route path="/mission-statement" element={<MissionStatement />} />
             <Route path="/volunteer" element={<Volunteer />} />
@@ -38,7 +39,9 @@ function App() {
           </Routes>
         </div>
         <Footer />
-      </BrowserRouter></>
+      </BrowserRouter>
+      </>
+
 
   );
 }

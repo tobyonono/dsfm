@@ -72,7 +72,7 @@ const Navbar = () => {
                         </NavLink>
                     </li>
                     <li className='active:border-blue-400 mr-2'>
-                        <NavLink to='/podcasts' className={({ isActive }) =>
+                        <NavLink to='/contact' className={({ isActive }) =>
                             isActive ? 'opacity-100 border-b border-black' : 'opacity-50 hover:opacity-100 border-dashed'
                         }>
                             <button className="pointer-events-auto ">

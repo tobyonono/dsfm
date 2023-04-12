@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+      display: ["group-hover"],
       opacity: ['responsive', 'hover', 'focus', 'group-hover'],
       fontFamily: {
         'nitti': ['Nitti', 'mono'],
