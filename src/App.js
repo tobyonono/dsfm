@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { useState } from 'react';
+import { useState, useRef  } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Home from './pages/Home';
@@ -19,13 +19,18 @@ import { ScrollRestoration } from "react-router-dom";
 
 
 function App() {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [showPodcast, setShowPodcast] = useState(false);
+  const audioRef = useRef(new Audio('https://dublinsouthfm.radioca.st/stream'));
+
+
   return (
     <>
       <BrowserRouter>
-      <Navbar />
+      <Navbar isPlaying={isPlaying} setIsPlaying={setIsPlaying} audioRef={audioRef} showPodcast={showPodcast} setShowPodcast={setShowPodcast}/>
         <div className='App'>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home isPlaying={isPlaying} setIsPlaying={setIsPlaying} audioRef={audioRef} showPodcast={showPodcast} setShowPodcast={setShowPodcast}/>} />
             <Route path="/podcast" element={<Podcasts />} />
             <Route path="/media" element={<Media />} />
             <Route path="/#" element={<Contact />} />

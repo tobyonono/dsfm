@@ -1,11 +1,14 @@
 import { FaPlay } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
-const SingleShow = ({ name, image, date, location, genre, link, setShowPodcast, setPodcast }) => {
+const SingleShow = ({ name, image, date, location, genre, link, setShowPodcast, setPodcast, isPlaying, setIsPlaying, audioRef }) => {
 
-    const handleClick = (podcastLink) => {
+    const handleClick = (podcastLink, setIsPlaying, audioRef) => {
+        setIsPlaying(false);
+        audioRef.current.pause();
         setPodcast(podcastLink);
         setShowPodcast(true);
+        
 
     }
     console.log(name);
@@ -18,7 +21,7 @@ const SingleShow = ({ name, image, date, location, genre, link, setShowPodcast, 
                         <img className='aspect-square object-cover' src={image} loading="lazy" />
                     </div>
                     <div className="invisible inset-0 absolute group-hover:bg-black/60 flex items-center justify-center  group-hover:visible group-hover:text-white/100" >
-                        <button className="" onClick={() => handleClick(link)}>
+                        <button className="" onClick={() => handleClick(link, setIsPlaying, audioRef)}>
                         <IconContext.Provider value={{ size: '5em'}}>
                             <FaPlay />
                             </IconContext.Provider>

@@ -11,10 +11,9 @@ import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import { useState } from "react";
 
-const Home = () => {
+const Home = ({isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast}) => {
 
     const [podcast, setPodcast] = useState('');
-    const [showPodcast, setShowPodcast] = useState(false);
 
     const handleClick = () => {
         setShowPodcast(false)
@@ -75,7 +74,7 @@ const Home = () => {
                     <p className="p-2 bg-white text-black rounded-xl focus:bg-slate-900 focus:rounded-xl shadow-[0_2px_0_0_rgb(0,0,0)] border-2 border-black transition ease-out active:scale-105" >Podcasts</p>
                 </div>
                 <div className="">
-                    <MultiplePodcasts shows={PodcastArray} setPodcast={setPodcast} setShowPodcast={setShowPodcast} />
+                    <MultiplePodcasts shows={PodcastArray} setPodcast={setPodcast} setShowPodcast={setShowPodcast} isPlaying={isPlaying} setIsPlaying={setIsPlaying} audioRef={audioRef} />
                 </div>
             </section>
             <section className="h-full w-full p-8 bg-black text-white">

@@ -14,14 +14,13 @@ import { IconContext } from "react-icons";
 import { useState, useRef } from "react";
 
 
-const Navbar = () => {
+const Navbar = ({isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast}) => {
 
-    const [isPlaying, setIsPlaying] = useState(false);
-    const audioRef = useRef(new Audio('https://dublinsouthfm.radioca.st/stream'));
 
     const play = () => {
         setIsPlaying(true);
         audioRef.current.play();
+        setShowPodcast(false)
     };
 
     const pause = () => {
