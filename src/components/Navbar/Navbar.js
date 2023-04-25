@@ -116,7 +116,7 @@ const Navbar = ({isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast}
                     <li className="flex items-center uppercase">
                         <p className="px-2 text-lg font-bold">Mike @ The Mic</p>
                         <span>//</span>
-                        <p className="px-2 text-lg">12:00pm - 1:00pm</p>
+                        <p className="px-2 text-lg">4:00pm - 5:00pm</p>
                     </li>
                     <li className="ml-auto">
                         <div className="flex flex-row  border-[#F7BA45] border-l-2 p-1 max-h-16 self-center">
