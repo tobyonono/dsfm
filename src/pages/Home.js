@@ -10,6 +10,7 @@ import img10 from '../images/000043.JPG';
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import { useState } from "react";
+import ReactPlayer from "react-player";
 
 const Home = ({isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast}) => {
 
@@ -25,7 +26,7 @@ const Home = ({isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast}) 
 
 
                 <div className=" h-[calc(100vh_-_62px_-_53px)]">
-                    <img className='h-full w-full object-cover' src={img10} />
+                    <img className='h-full w-full object-cover' src={'http://dublinsouthfm.ie/wp-content/uploads/2021/08/Dun-Laoghaire.jpg'} />
                     <div className="inset-0 absolute group-hover:bg-black/60 flex items-center justify-center  group-hover:visible group-hover:text-white/100" >
                         <div className="" >
                         
