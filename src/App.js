@@ -33,7 +33,6 @@ function App() {
             <Route path="/" element={<Home isPlaying={isPlaying} setIsPlaying={setIsPlaying} audioRef={audioRef} showPodcast={showPodcast} setShowPodcast={setShowPodcast}/>} />
             <Route path="/podcast" element={<Podcasts />} />
             <Route path="/media" element={<Media />} />
-            <Route path="/#" element={<Contact />} />
             <Route path="/#" element={<Schedule />} />
             <Route path="/our-story" element={<OurStory />} />
             <Route path="/mission-statement" element={<MissionStatement />} />

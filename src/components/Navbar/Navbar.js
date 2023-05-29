@@ -14,7 +14,7 @@ import { IconContext } from "react-icons";
 import { useState, useRef } from "react";
 
 
-const Navbar = ({isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast}) => {
+const Navbar = ({ isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast }) => {
 
 
     const play = () => {
@@ -70,22 +70,18 @@ const Navbar = ({isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast}
                             </button>
                         </NavLink>
                     </li>
-                    <li className='active:border-blue-400 mr-2'>
-                        <NavLink to='/contact' className={({ isActive }) =>
-                            isActive ? 'opacity-100 border-b border-black' : 'opacity-50 hover:opacity-100 border-dashed'
-                        }>
-                            <button className="pointer-events-auto ">
-                                <span>CONTACT</span>
-                            </button>
-                        </NavLink>
-                    </li>
                     <li className="ml-auto">
                         <div className=" flex justify-between items-center">
                             <IconContext.Provider value={{ color: "white", size: '1.2em', className: "mx-2" }}>
-                                <FaInstagram />
-                                <FaTwitter />
-                                <FaFacebook />
-                                <FaLinkedin />
+                                <a href="https://www.instagram.com/dublinsouthfm">
+                                    <FaInstagram />
+                                </a>
+                                <a href="https://twitter.com/DublinSouthFM">
+                                    <FaTwitter />
+                                </a>
+                                <a href="https://www.facebook.com/DublinSouthFM/">
+                                    <FaFacebook />
+                                </a>
                             </IconContext.Provider>
                         </div>
                     </li>
@@ -110,7 +106,7 @@ const Navbar = ({isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast}
             </nav >
             <section className="bg-black pl-2 border-2 border-[#F7BA45] text-white">
                 <ul className="flex flex-row">
-                    <li className="flex items-center border-r-2 border-[#F7BA45]">                                
+                    <li className="flex items-center border-r-2 border-[#F7BA45]">
                         <div className=" flex text-white items-center text-lg"><p className="mr-1">ON AIR</p> <span className="mr-1 animate-flicker-animation bg-[#e81717] w-7 h-7 inline-block rounded-full"></span></div>
                     </li>
                     <li className="flex items-center uppercase">
@@ -133,7 +129,7 @@ const Navbar = ({isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast}
                             </IconContext.Provider>
                         </div>
                     </li>
-                    
+
                     <li></li>
                     <li></li>
 
