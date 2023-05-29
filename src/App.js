@@ -40,6 +40,8 @@ function App() {
             <Route path="/mission-statement" element={<MissionStatement />} />
             <Route path="/code-of-practice" element={<CodeOfPractice />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/schedule" element={<Schedule />} />
+
 
 
 

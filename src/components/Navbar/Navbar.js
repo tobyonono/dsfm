@@ -76,6 +76,29 @@ const Navbar = ({ isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast
                             </IconContext.Provider>
                         </div>
                     </li>
+                    <li className=" border-[#F7BA45]">
+                        <div className="flex">
+                            <li className="flex items-center ">
+                                <div className=" flex text-white items-center text-lg"><p className="mr-1">ON AIR</p> <span className="mr-1 animate-flicker-animation bg-[#e81717] w-7 h-7 inline-block rounded-full"></span></div>
+                            </li>
+                            <li className="">
+                                <div className="flex flex-row  border-[#F7BA45] border-l-2 p-1 max-h-16 self-center">
+                                    <IconContext.Provider value={{ color: "#F7BA45", size: '0.7em', className: "" }}>
+                                        <button
+                                            className="p-4 border-2 border-[#F7BA45] rounded-full "
+                                            onClick={isPlaying ? pause : play}
+                                            aria-label={
+                                                isPlaying ? "Pause Live Broadcast" : "Play Live Broadcast"
+                                            }
+                                        >
+                                            {isPlaying ? <FaPause /> : <FaPlay />}
+                                        </button>
+                                    </IconContext.Provider>
+                                </div>
+                            </li>
+                        </div>
+                    </li>
+
 
 
                 </ul>
@@ -95,10 +118,10 @@ const Navbar = ({ isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast
                 </div>
 
             </nav >
-            <section className="bg-black pl-2 border-2 border-[#F7BA45] text-white">
+            <section className="hidden bg-black pl-2 border-2 border-[#F7BA45] text-white">
                 <ul className="flex flex-row">
                     <li className="flex items-center border-r-2 border-[#F7BA45]">
-                        <div className=" flex text-white items-center text-lg"><p className="mr-1"></p> <span className="mr-1 animate-flicker-animation bg-[#e81717] w-7 h-7 inline-block rounded-full"></span></div>
+                        <div className=" flex text-white items-center text-lg"><p className="mr-1">ON AIR</p> <span className="mr-1 animate-flicker-animation bg-[#e81717] w-7 h-7 inline-block rounded-full"></span></div>
                     </li>
                     <li className="flex items-center uppercase">
                         <p className="px-2 text-lg font-bold"></p>

@@ -63,28 +63,135 @@ const Schedule = () => {
     };
 
     return (
-        <table>
-            <thead>
-                <tr>
-                    <th></th>
-                    {days.map(day => (
-                        <th key={day}>{day}</th>
-                    ))}
-                </tr>
-            </thead>
-            <tbody>
-                {times.map(time => (
-                    <tr key={time}>
-                        <td>{time}</td>
+        <>
+            <table className='hidden'>
+                <thead>
+                    <tr>
+                        <th></th>
                         {days.map(day => (
-                            <td key={`${time}-${day}` } className='bg-[bisque] p-4'>
-                                {filterShows(time, day).map(show => show.name)}
-                            </td>
+                            <th key={day}>{day}</th>
                         ))}
                     </tr>
-                ))}
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    {times.map(time => (
+                        <tr key={time}>
+                            <td>{time}</td>
+                            {days.map(day => (
+                                <td key={`${time}-${day}`} className='bg-[bisque] p-4'>
+                                    {filterShows(time, day).map(show => show.name)}
+                                </td>
+                            ))}
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+            <div className='whitespace-pre-line'>
+                MONDAY:
+                
+                11am - Out & About
+
+                12pm - Not Just Nashville
+
+                1pm - Music
+                2pm - Destination Anywhere
+                3pm - Scoth na Seachtaine
+                4pm - Voyage Around My Brain
+                5pm - News
+                5:30pm - Making A Difference
+                6pm - Signposts of Your Life
+                7pm - Mike @ the Mic
+                8pm - Music
+                9pm - Ray M's Country Sounds
+                10pm - Moshpit Monday
+                
+               
+
+                TUESDAY:
+
+                11am - RTE Doc On One
+                12pm - Tuesday Bluesday
+                1pm - The Wishing Well
+                2pm - Lost In Translation
+                3pm - Where's It At?
+                3:30pm - Musical Memories
+                4pm - Memory Lane
+                5pm - News
+                5:30pm - Paul Wright Docs
+                6pm - Music
+                7pm - Fite Fuaite
+                8pm - Descarga
+                9pm - Solid Sound
+
+                WEDNESDAY:
+
+                11am - The Power of Dreams
+                1pm - Music
+                2pm - Echoes of the Jukebox
+                3pm - Midweek Mix
+                4pm - The Norton Report
+                5pm - News
+                5:30 - Green Radio
+                6pm - Music
+                8pm - Bass Nation
+                9pm - Radio Dublino
+                10pm - Tracks with Noel & Eoin
+
+                THURSDAY:
+
+                11am - The Marlon Show
+                12pm - Mike @ the mic
+                1pm - Wellbeing For Everyday Life
+                2pm - The Sandyford Shedders
+                3pm - Apna Radio
+                4pm - Midweek Mix
+                5pm - News
+                5:30pm - Southside Players
+                6pm - Dramatic Dublin
+                6:30pm - Interlinks
+                7pm - Music
+                8pm - Ult Cruze
+                10pm - New Irish Music Hour
+
+                FRIDAY:
+
+                11am - Friday Forum
+                12pm - Music
+                2pm - Let's Get Social
+                3pm - Sweep of the Week
+                4pm - The View From Here
+                5pm - News
+                5:30pm - Music
+                6pm - Ray M's Country Sounds
+                7pm - Rhyme & Reason
+                7:30pm - The Jazzman
+                9pm - The Power of Dreams
+
+                SATURDAY:
+
+                11am - Sweep of the Week
+                12pm - RTE Doc On One
+                1pm - The Sandyford Shedders
+                2pm - Shuffling Through The Years
+                3:30 - Shout!
+                4pm - Apna Radio
+                6pm - Music Bonanza
+                7pm - Urban Smooth
+                9pm - Music
+
+                SUNDAY:
+                11am - Ceol go Leor
+                1pm - Take the A Train
+                3pm - Memory Lane
+                4pm - Classic Sunday
+                5:30pm - Vision
+                6pm - Music
+                7pm - Eclectic Chair
+                8pm - Sunday Night with Keith
+                10pm - Music
+            </div>
+        </>
+
     );
 }
 

@@ -1,3 +1,6 @@
+import GCCC from '../GCCC.pdf';
+import COPS from '../COPS.pdf';
+import CCCC from '../CCCC.pdf';
 const CodeOfPractice = () => {
 
     return (
@@ -66,14 +69,12 @@ const CodeOfPractice = () => {
                                                     content which may reasonably be regarded as - causing harm or offence; -
                                                     tending to promote, or incite crime; - tending to undermine the authority of the
                                                     State; or - unreasonably encroach upon the privacy of an individual. We also
-                                                    will ensure programming is in compliance with the Coimisiún na Meán Code of
-                                                    Programme Standards (pdf attachements required)
+                                                    will ensure programming is in compliance with the <span className="underline"><a href={COPS} target='_blank'>Coimisiún na Meán Code of
+                                                    Programme Standards</a></span> 
                                                 </p>
                                                 <p className="mb-4">
                                                     (iv) Commercial Communications: All commercial communications broadcast
-                                                    by us will be in compliance with the Coimisiún na Meán General Commercial
-                                                    Communications Code and the Coimisiún na Meán Children’s Commercial
-                                                    Communications Code (pdf attachements required)
+                                                    by us will be in compliance with the <span className="underline"><a href={GCCC} target='_blank'>Coimisiún na Meán General Commercial Communications Code</a></span> and the <span className="underline"><a href={CCCC} target='_blank'>Coimisiún na Meán Children’s Commercial Communications Code</a></span>
                                                 </p>
                                                 <p className="mb-4">
                                                     When submitting a complaint under b) harm &amp; offence, complainants can refer
