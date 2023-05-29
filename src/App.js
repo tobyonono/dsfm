@@ -13,6 +13,7 @@ import CodeOfPractice from './pages/CodeOfPractice';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Volunteer from './pages/Volunteer';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 import { ScrollRestoration } from "react-router-dom";
 
 
@@ -38,6 +39,8 @@ function App() {
             <Route path="/our-story" element={<OurStory />} />
             <Route path="/mission-statement" element={<MissionStatement />} />
             <Route path="/code-of-practice" element={<CodeOfPractice />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+
 
 
 

@@ -1,4 +1,5 @@
 import Marquee from "react-fast-marquee";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => (
     <>
@@ -59,9 +60,16 @@ const Footer = () => (
                     <div>
                         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                         <ul class="text-gray-600 dark:text-gray-400">
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Privacy Policy</a>
-                            </li>
+                        <li className='active:border-blue-400 mr-2'>
+                        <NavLink to='/privacy-policy' className={({ isActive }) =>
+                            isActive ? 'opacity-100 border-b border-black' : 'opacity-50 hover:opacity-100 border-dashed'
+                        }>
+
+                            <button className="pointer-events-auto uppercase">
+                                <span>Privacy Policy</span>
+                            </button>
+                        </NavLink>
+                    </li>
                             <li>
                             </li>
                         </ul>
