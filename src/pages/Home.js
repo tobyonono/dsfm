@@ -129,7 +129,7 @@ const Home = ({isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast}) 
                     </div>
                 </div>
             </section >
-            <section className="fixed top-0 z-1 left-0 right-0">
+            <section className="fixed bottom-0 z-1 left-0 right-0">
                 {showPodcast &&
                     <div className="flex flex-row items-center transition ease-in-out">
                         <div className="w-full transition ease-in-out">{podcast}</div>
