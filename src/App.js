@@ -9,6 +9,7 @@ import Schedule from './pages/Schedule';
 import Contact from './pages/Contact';
 import OurStory from './pages/OurStory';
 import MissionStatement from './pages/MissionStatement';
+import CodeOfPractice from './pages/CodeOfPractice';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Volunteer from './pages/Volunteer';
@@ -36,7 +37,8 @@ function App() {
             <Route path="/#" element={<Schedule />} />
             <Route path="/our-story" element={<OurStory />} />
             <Route path="/mission-statement" element={<MissionStatement />} />
-            <Route path="/volunteer" element={<Volunteer />} />
+            <Route path="/code-of-practice" element={<CodeOfPractice />} />
+
 
 
             

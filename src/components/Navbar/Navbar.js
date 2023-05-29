@@ -60,16 +60,7 @@ const Navbar = ({ isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast
                             </button>
                         </NavLink>
                     </li>
-                    <li className='active:border-blue-400 mr-2'>
-                        <NavLink to='/volunteer' className={({ isActive }) =>
-                            isActive ? 'opacity-100 border-b border-black' : 'opacity-50 hover:opacity-100 border-dashed'
-                        }>
 
-                            <button className="pointer-events-auto ">
-                                <span>VOLUNTEER</span>
-                            </button>
-                        </NavLink>
-                    </li>
                     <li className="ml-auto">
                         <div className=" flex justify-between items-center">
                             <IconContext.Provider value={{ color: "white", size: '1.2em', className: "mx-2" }}>
@@ -107,12 +98,12 @@ const Navbar = ({ isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast
             <section className="bg-black pl-2 border-2 border-[#F7BA45] text-white">
                 <ul className="flex flex-row">
                     <li className="flex items-center border-r-2 border-[#F7BA45]">
-                        <div className=" flex text-white items-center text-lg"><p className="mr-1">ON AIR</p> <span className="mr-1 animate-flicker-animation bg-[#e81717] w-7 h-7 inline-block rounded-full"></span></div>
+                        <div className=" flex text-white items-center text-lg"><p className="mr-1"></p> <span className="mr-1 animate-flicker-animation bg-[#e81717] w-7 h-7 inline-block rounded-full"></span></div>
                     </li>
                     <li className="flex items-center uppercase">
-                        <p className="px-2 text-lg font-bold">Mike @ The Mic</p>
-                        <span>//</span>
-                        <p className="px-2 text-lg">4:00pm - 5:00pm</p>
+                        <p className="px-2 text-lg font-bold"></p>
+                        <span></span>
+                        <p className="px-2 text-lg"></p>
                     </li>
                     <li className="ml-auto">
                         <div className="flex flex-row  border-[#F7BA45] border-l-2 p-1 max-h-16 self-center">

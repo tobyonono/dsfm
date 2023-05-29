@@ -35,7 +35,7 @@ const Home = ({isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast}) 
                 </div>
 
             </section>
-            <section className="h-full w-full p-8 bg-white text-black">
+            <section className="hidden h-full w-full p-8 bg-white text-black">
                 <div className="flex py-2 justify-between border-b border-b-black uppercase text-sm font-nitti">
                     <p className="p-2 bg-white text-black rounded-xl focus:bg-slate-900 focus:rounded-xl shadow-[0_2px_0_0_rgb(0,0,0)] border-2 border-black transition ease-out active:scale-105" >Upcoming Shows</p>
                 </div>

@@ -15,13 +15,14 @@ const classNames = (...classes) => {
 
     const isOnOurStory= (useMatch("/our-story"));
     const isOnMissionstatement = (useMatch("/mission-statement"))
+    const isOnCodeOfPractice= (useMatch("/code-of-practice"))
     console.log(((isOnOurStory || isOnMissionstatement) ? true: false))
 
     return (
       <Menu as="div" className="relative inline-block text-left">
         <div>
             
-          <Menu.Button className={ (isOnOurStory || isOnMissionstatement) ? `opacity-100 inline-flex w-full justify-center px-4 py-2 shadow-sm `: `inline-flex w-full justify-center px-4 py-2 shadow-sm opacity-50`}>
+          <Menu.Button className={ (isOnOurStory || isOnMissionstatement || isOnCodeOfPractice) ? `opacity-100 inline-flex w-full justify-center px-4 py-2 shadow-sm `: `inline-flex w-full justify-center px-4 py-2 shadow-sm opacity-50`}>
             ABOUT
             <FaCaretDown className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
           </Menu.Button>
@@ -55,6 +56,15 @@ const classNames = (...classes) => {
                         }>
                             <button className="pointer-events-auto ">
                                 <span>MISSION STATEMENT</span>
+                            </button>
+                        </NavLink>
+                    </li>
+                    <li className='active:border-blue-400 mr-2'>
+                        <NavLink to='/code-of-practice' className={({ isActive }) =>
+                             isActive ? 'text-gray-900 block px-4 py-2 text-sm' : 'text-gray-700 block px-4 py-2 text-sm'
+                        }>
+                            <button className="pointer-events-auto ">
+                                <span>Code Of Practice</span>
                             </button>
                         </NavLink>
                     </li>
