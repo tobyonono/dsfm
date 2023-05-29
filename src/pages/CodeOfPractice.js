@@ -338,150 +338,121 @@ const CodeOfPractice = () => {
                                                 </p>
                                                 <p className="mb-4">Contact Number: 01 296 0939</p>
                                                 <p className="mb-4">Email: complaints@dublinsouthfm.ie</p>
+                                                <p className="mb-4">
+                                                    In order for your complaint to be accepted and considered, it must include the
+                                                    above details and must refer to a programme, advertisement or other form of
+                                                    commercial communication already broadcast on our service.
+                                                </p>
+                                                <p className="mb-4">
+                                                    To assist complainants a ‘Programming Complaint Form’ is available to
+                                                    download from our website HERE.
+                                                </p>
+                                                <p className="mb-4">
+
+                                                    For complaints relating to commercial or advertising output you should use the
+                                                    form HERE
+                                                </p>
+                                                <p className="mb-4">
+                                                    An on-line complaint facility is also available on our website at
+                                                    www.dublinsouthfm.ie
+                                                </p>
+                                            </li>
+                                            <li>What will happen to my complaint?
+                                                <p className="my-4">
+                                                    Once we have accepted your complaint we will work to resolve the issue/s as
+                                                    soon as possible.  Your complaint will be carefully considered, investigated if
+                                                    necessary, and responded to in writing by our Compliance Officer and/or
+                                                    Chairperson.
+                                                </p>
+                                                <ul className="list-disc">
+                                                    <li className="mb-4">
+                                                        Dublin South FM will write to you to acknowledge receipt of your
+                                                        complaint within 7 working days.
+                                                    </li>
+                                                    <li className="mb-4">
+                                                        Dublin South FM will consider the issues raised in your complaint.
+                                                    </li>
+                                                    <li className="mb-4">
+                                                        Dublin South FM will listen to the programme/broadcast item identified
+                                                        in your complaint.
+                                                    </li>
+                                                    <li className="mb-4">
+                                                        Where appropriate, we will consult with any party to which your
+                                                        complaint relates, for example, the advertiser, the presenter or programme
+                                                        maker, to give that party an opportunity to provide observations and
+                                                        comments in relation to the issues raised by you.
+                                                    </li>
+                                                    <li className="mb-4">
+                                                        Dublin South FM will provide a response to your complaint which will,
+                                                        as far as possible, address all of the issues/concerns you have raised. We
+                                                        will set out the reasons for our decision on your complaint. This response
+                                                        will be sent to you within 21 days from receipt of your complaint.
+                                                    </li>
 
 
-
+                                                </ul>
+                                            </li>
+                                            <li>What are the potential outcomes for my complaint?
+                                                <p className="my-4">
+                                                    We may uphold or reject a complaint. Upholding a complaint means that we
+                                                    believe that our programming did not comply with our obligations covered by
+                                                    this Code of Practice. Rejecting a complaint means we believe that our
+                                                    programming was in compliance with our obligations.
+                                                </p>
+                                                <p className="mb-4">
+                                                    If we uphold your complaint, we will seek to resolve it to your satisfaction in an
+                                                    agreed manner. The manner of resolution will be decided on a case by case
+                                                    basis but may include an apology, correction, clarification and/or the offer of a
+                                                    rebuttal.
+                                                </p>
+                                            </li>
+                                            <li>The role of Coimisiún na Meán
+                                                <p className="mb-4">
+                                                    Complaint referrals: Complaints may be referred to Coimisiún na Meán if the
+                                                    complainant is not satisfied with the response provided by the broadcaster or if
+                                                    no response is provided within the timeframe of 20 working days as set out in
+                                                    the Code of Practice for Complaints Handling.
+                                                </p>
+                                                <p className="mb-4">
+                                                    Complainants then have 14 days to refer their complaint to Coimisiún na Meán.
+                                                    Complainants can refer complaints to Coimisiún na Meán using the existing
+                                                    online portal at https://bai.service-now.com/complaints or they can
+                                                    contact complaints@cnam.ie or (01) 6441 200 or write to: 2-5 Warrington
+                                                    Place, Dublin 02 XP29.
+                                                </p>
 
                                             </li>
-                                        </ol>
-
-                                    </p>
-
-
-                                    4.
-
-
-                                    In order for your complaint to be accepted and considered, it must include the
-                                    above details and must refer to a programme, advertisement or other form of
-                                    commercial communication already broadcast on our service.
-                                    To assist complainants a ‘Programming Complaint Form’ is available to
-                                    download from our website HERE.
-                                    For complaints relating to commercial or advertising output you should use the
-                                    form HERE
-                                    An on-line complaint facility is also available on our website at
-                                    www.dublinsouthfm.ie
-                                    5 . What will happen to my complaint?
-                                    Once we have accepted your complaint we will work to resolve the issue/s as
-                                    soon as possible.  Your complaint will be carefully considered, investigated if
-                                    necessary, and responded to in writing by our Compliance Officer and/or
-                                    Chairperson.
-                                     Dublin South FM will write to you to acknowledge receipt of your
-                                    complaint within 7 working days.
-                                     Dublin South FM will consider the issues raised in your complaint.
-                                     Dublin South FM will listen to the programme/broadcast item identified
-                                    in your complaint.
-                                     Where appropriate, we will consult with any party to which your
-                                    complaint relates, for example, the advertiser, the presenter or programme
-                                    maker, to give that party an opportunity to provide observations and
-                                    comments in relation to the issues raised by you.
-                                     Dublin South FM will provide a response to your complaint which will,
-                                    as far as possible, address all of the issues/concerns you have raised. We
-                                    will set out the reasons for our decision on your complaint. This response
-                                    will be sent to you within 21 days from receipt of your complaint.
-                                    6. What are the potential outcomes for my complaint?
-                                    We may uphold or reject a complaint. Upholding a complaint means that we
-                                    believe that our programming did not comply with our obligations covered by
-                                    this Code of Practice. Rejecting a complaint means we believe that our
-                                    programming was in compliance with our obligations.
-
-                                    If we uphold your complaint, we will seek to resolve it to your satisfaction in an
-                                    agreed manner. The manner of resolution will be decided on a case by case
-                                    basis but may include an apology, correction, clarification and/or the offer of a
-                                    rebuttal.
-                                    7. The role of Coimisiún na Meán
-                                    Complaint referrals: Complaints may be referred to Coimisiún na Meán if the
-                                    complainant is not satisfied with the response provided by the broadcaster or if
-                                    no response is provided within the timeframe of 20 working days as set out in
-                                    the Code of Practice for Complaints Handling.
-                                    Complainants then have 14 days to refer their complaint to Coimisiún na Meán.
-                                    Complainants can refer complaints to Coimisiún na Meán using the existing
-                                    online portal at https://bai.service-now.com/complaints or they can
-                                    contact complaints@cnam.ie or (01) 6441 200 or write to: 2-5 Warrington
-                                    Place, Dublin 02 XP29.
-                                    8. Record of Complaints
-                                    We are required under the Broadcasting Act, 2009 to keep a record of all
+                                            <li>Record of Complaints
+                                                <p className="mb-4">
+                                                We are required under the Broadcasting Act, 2009 to keep a record of all
                                     complaints submitted in accordance with this Code of Practice for two years.
                                     We are also obliged to provide these records to the Compliance Committee of
                                     the BAI if the Committee so directs.
-                                    Our records will include copies of your complaint, our response/s and the audio
+                                                </p>
+                                                <p className="mb-4">
+                                                Our records will include copies of your complaint, our response/s and the audio
                                     copies of the broadcast material.
-                                    (1) The name of the complainant will not be published without his/her prior
+                                                </p>
+                                                <p className="mb-4">
+                                                (1) The name of the complainant will not be published without his/her prior
                                     consent, for example, where a complaint is upheld. The contact details are for
                                     use by Dublin South FM only.
-                                    (2) Dublin South FM is not obliged to send you a copy of any broadcast. You
+                                                </p>
+                                                <p className="mb-4">
+                                                (2) Dublin South FM is not obliged to send you a copy of any broadcast. You
                                     yourself should have heard the broadcast in question.
-                                    <p className="font-GTWalsheim mb-6">We embrace the AMARC Charters recognition that community radio is an ideal means of fostering freedom of expression and information, the development of culture, the freedom to form and confront opinions and active participation in local life: noting that different cultures and traditions lead to diversity of forms of community radio: the AMARC Charter identifies objectives which community radio stations world wide share and should strive to achieve.</p>
-                                    <p className="font-GTWalsheim mb-6 font-light">
-                                        Dublin South community radio has been created and is run without distinction of race, creed, sex, caste, colour or age. We seek to achieve and maintain the highest principals of democratic and moral broadcast standards.
+                                                </p>
+                                                
+
+                                            </li>
+
+                                        </ol>
+
                                     </p>
                                 </div>
 
                             </div>
-                            <div>
-                                <div className=" text-left grid grid-cols-2 gap-4 m-auto">
-                                    <div className="shadow-lg rounded-3xl p-3 border border-2">
-                                        <h1 className="font-guyot text-xl mb-4 ">01</h1>
-                                        <h1 className="font-GTWalsheim text-4xl mb-4 font-bold ">Provide</h1>
-                                        <p className="text-left font-GTWalsheim">An alternative to mainstream radio, a voice for those under-represented or excluded, through training and access to radio broadcasting facilities.</p>
-
-                                    </div>
-                                    <div className="shadow-lg rounded-3xl p-3 border border-2">
-                                        <h1 className="font-guyot text-xl mb-4 ">02</h1>
-                                        <h1 className="font-GTWalsheim text-4xl mb-4 font-bold ">Serve</h1>
-                                        <p className="text-left font-GTWalsheim">Our community through distinctive programming, which honestly informs and contributes to the entertainment, education and development of our community.</p>
-
-                                    </div>
-                                    <div className="shadow-lg rounded-3xl p-3 border border-2">
-                                        <h1 className="font-guyot text-xl mb-4 ">03</h1>
-                                        <h1 className="font-GTWalsheim text-4xl mb-4 font-bold ">Work</h1>
-                                        <p className="text-left font-GTWalsheim">For social change, by promoting dialogue, encouraging artistic expression, offering alternative world views and by acting as a forum for people who typically lack media access.</p>
-
-                                    </div>
-                                    <div className="shadow-lg rounded-3xl p-3 border border-2">
-                                        <h1 className="font-guyot text-xl mb-4 ">04</h1>
-                                        <h1 className="font-GTWalsheim text-4xl mb-4 font-bold ">Foster</h1>
-                                        <p className="text-left font-GTWalsheim">Democracy, pluralism, global justice and media literacy.</p>
-
-                                    </div>
-                                    <div className="shadow-lg rounded-3xl p-3 border border-2">
-                                        <h1 className="font-guyot text-xl mb-4 ">05</h1>
-                                        <h1 className="font-GTWalsheim text-4xl mb-4 font-bold ">Defend</h1>
-                                        <p className="text-left font-GTWalsheim">The environment and human rights, particularly the right to communicate.</p>
-
-                                    </div>
-                                    <div className="shadow-lg rounded-3xl p-3 border border-2">
-                                        <h1 className="font-guyot text-xl mb-4 ">06</h1>
-                                        <h1 className="font-GTWalsheim text-4xl mb-4 font-bold ">Ensure</h1>
-                                        <p className="text-left font-GTWalsheim">That we are editorially independent, accountable, transparent and participatory and to respect the role of the volunteers and staff.</p>
-
-                                    </div>
-                                    <div className="shadow-lg rounded-3xl p-3 border border-2">
-                                        <h1 className="font-guyot text-xl mb-4 ">07</h1>
-                                        <h1 className="font-GTWalsheim text-4xl mb-4 font-bold ">Support</h1>
-                                        <p className="text-left font-GTWalsheim">Community building values, local business, local arts initiatives, multiculturalism and linguistic diversity.</p>
-
-                                    </div>
-                                    <div className="shadow-lg rounded-3xl p-3 border border-2">
-                                        <h1 className="font-guyot text-xl mb-4 ">08</h1>
-                                        <h1 className="font-GTWalsheim text-4xl mb-4 font-bold ">Encourage</h1>
-                                        <p className="text-left font-GTWalsheim">Exchange of diverse ideas, creativity, local traditions and collective actions.</p>
-
-                                    </div>
-                                    <div className="shadow-lg rounded-3xl p-3 border border-2">
-                                        <h1 className="font-guyot text-xl mb-4 ">09</h1>
-                                        <h1 className="font-GTWalsheim text-4xl mb-4 font-bold ">Resist</h1>
-                                        <p className="text-left font-GTWalsheim">Discrimination, exclusion and media enclosure.</p>
-
-                                    </div>
-                                    <div className="shadow-lg rounded-3xl p-3 border border-2">
-                                        <h1 className="font-guyot text-xl mb-4 ">10</h1>
-                                        <h1 className="font-GTWalsheim text-4xl mb-4 font-bold ">Promote</h1>
-                                        <p className="text-left font-GTWalsheim">The development and use of new technologies, communication and information technology.</p>
-
-                                    </div>
-
-                                </div>
-                            </div>
+                            
                         </div>
                     </section>
                 </div>
