@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
                 </div>
                 <div className="lg:-mt-24">
                     <section>
-                        <div className="ml-auto mr-auto p-4 sm:p-8 bg-white max-w-5xl">
+                        <div className="ml-auto mr-auto p-4 sm:p-8 bg-white max-w-5xl font-GTWalsheim">
                             <div className="max-w-none text-base">
                                 <h1 className="font-GTWalsheim text-5xl mb-6 font-bold underline">Privacy Policy</h1>
                                 <div className="text-left">

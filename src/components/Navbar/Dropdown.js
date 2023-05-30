@@ -64,7 +64,7 @@ const classNames = (...classes) => {
                              isActive ? 'text-gray-900 block px-4 py-2 text-sm' : 'text-gray-700 block px-4 py-2 text-sm'
                         }>
                             <button className="pointer-events-auto ">
-                                <span>Code Of Practice</span>
+                                <span>CODE OF PRACTICE</span>
                             </button>
                         </NavLink>
                     </li>

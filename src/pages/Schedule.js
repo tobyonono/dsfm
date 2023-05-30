@@ -86,58 +86,55 @@ const Schedule = () => {
                     ))}
                 </tbody>
             </table>
-            <div className='whitespace-pre-line'>
-                MONDAY:
-                
-                11am - Out & About
+            <div className=' text-left'>
+                <h1 className='font-GTWalsheim text-lg'>MONDAY:</h1>
+                <ul className='text-left gap-2 mb-4'>
+                    <li>11am - Out & About</li>
+                    <li>12pm - Not Just Nashville</li>
+                    <li>1pm - Music</li>
+                    <li>2pm - Destination Anywhere</li>
+                    <li>3pm - Scoth na Seachtaine</li>
+                    <li>4pm - Voyage Around My Brain</li>
+                    <li>5pm - News</li>
+                    <li>5:30pm - Making A Difference</li>
+                    <li>6pm - Signposts of Your Life</li>
+                    <li>7pm - Mike @ the Mic</li>
+                    <li>8pm - Music</li>
+                    <li>9pm - Ray M's Country Sounds</li>
+                    <li>10pm - Moshpit Monday</li>
+                </ul>
+                <h1 className='font-GTWalsheim text-lg'>TUESDAY:</h1>
+                <ul className='text-left gap-2 mb-4'>
+                    <li>11am - RTE Doc On One</li>
+                    <li>12pm - Tuesday Bluesday</li>
+                    <li>2pm - Lost In Translation</li>
+                    <li>3pm - Where's It At?</li>
+                    <li>3:30pm - Musical Memories</li>
+                    <li>4pm - Memory Lane</li>
+                    <li>5pm - News</li>
+                    <li>5:30pm - Paul Wright Docs</li>
+                    <li>6pm - Music</li>
+                    <li>7pm - Fite Fuaite</li>
+                    <li>8pm - Descarga</li>
+                    <li>9pm - Solid Sound</li>
+                </ul>
+                <h1 className='font-GTWalsheim text-lg'>WEDNESDAY:</h1>
+                <ul className='text-left gap-2 mb-4'>
+                    <li>11am - The Power of Dreams</li>
+                    <li>1pm - Music</li>
+                    <li>2pm - Echoes of the Jukebox</li>
+                    <li>3pm - Midweek Mix</li>
+                    <li>4pm - The Norton Report</li>
+                    <li>5pm - News</li>
+                    <li>5:30 - Green Radio</li>
+                    <li>6pm - Music</li>
+                    <li>8pm - Bass Nation</li>
+                    <li>9pm - Radio Dublino</li>
+                    <li>10pm - Tracks with Noel & Eoin</li>
+                </ul>
 
-                12pm - Not Just Nashville
-
-                1pm - Music
-                2pm - Destination Anywhere
-                3pm - Scoth na Seachtaine
-                4pm - Voyage Around My Brain
-                5pm - News
-                5:30pm - Making A Difference
-                6pm - Signposts of Your Life
-                7pm - Mike @ the Mic
-                8pm - Music
-                9pm - Ray M's Country Sounds
-                10pm - Moshpit Monday
-                
-               
-
-                TUESDAY:
-
-                11am - RTE Doc On One
-                12pm - Tuesday Bluesday
-                1pm - The Wishing Well
-                2pm - Lost In Translation
-                3pm - Where's It At?
-                3:30pm - Musical Memories
-                4pm - Memory Lane
-                5pm - News
-                5:30pm - Paul Wright Docs
-                6pm - Music
-                7pm - Fite Fuaite
-                8pm - Descarga
-                9pm - Solid Sound
-
-                WEDNESDAY:
-
-                11am - The Power of Dreams
-                1pm - Music
-                2pm - Echoes of the Jukebox
-                3pm - Midweek Mix
-                4pm - The Norton Report
-                5pm - News
-                5:30 - Green Radio
-                6pm - Music
-                8pm - Bass Nation
-                9pm - Radio Dublino
-                10pm - Tracks with Noel & Eoin
-
-                THURSDAY:
+                <div className='hidden'>
+                     THURSDAY:
 
                 11am - The Marlon Show
                 12pm - Mike @ the mic
@@ -189,6 +186,8 @@ const Schedule = () => {
                 7pm - Eclectic Chair
                 8pm - Sunday Night with Keith
                 10pm - Music
+                </div>
+
             </div>
         </>
 
