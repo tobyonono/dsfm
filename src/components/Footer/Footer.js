@@ -1,9 +1,11 @@
 import Marquee from "react-fast-marquee";
 import { NavLink } from "react-router-dom";
+import logo from '../../images/DSFMLogo.png'
+
 
 const Footer = () => (
     <>
-        <footer className="bg-black text-white">
+        <footer className="hidden bg-black text-white">
             <div>
                 <h1 className="font-GTWalsheim text-white text-3xl text-center py-4">SPONSORS & FRIENDS</h1>
             </div>
@@ -28,7 +30,7 @@ const Footer = () => (
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0">
                     <a href="#" class="flex items-center">
-                        <img src="https://dublinsouthfm.ie/wp-content/uploads/2021/08/Comp-1-0-00-00-00.png" className="h-16 mr-3" alt="FlowBite Logo" />
+                        <img src={logo} className="h-16 mr-3" alt="FlowBite Logo" />
                     </a>
                 </div>
                 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

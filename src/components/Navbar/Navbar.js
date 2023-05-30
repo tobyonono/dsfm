@@ -11,6 +11,7 @@ import Dropdown from "./Dropdown";
 
 import Ticker, { FinancialTicker, NewsTicker } from 'nice-react-ticker';
 import { IconContext } from "react-icons";
+import logo from '../../images/DSFMLogo.png'
 import { useState, useRef } from "react";
 
 
@@ -36,7 +37,7 @@ const Navbar = ({ isPlaying, setIsPlaying, audioRef, showPodcast, setShowPodcast
 
                 <ul className="flex flex-row flex-1 items-center justify-start gap-8 font-nitti font-bold uppercase">
                     <li className="flex items-center">
-                        <img className="w-28 h-fit" src="https://dublinsouthfm.ie/wp-content/uploads/2021/08/Comp-1-0-00-00-00.png" />
+                        <img className="w-28 h-fit" src={logo} />
                     </li>
                     <li className='active:border-blue-400 mr-2'>
                         <NavLink to='/' className={({ isActive }) =>
