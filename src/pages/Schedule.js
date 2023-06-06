@@ -86,7 +86,7 @@ const Schedule = () => {
                     ))}
                 </tbody>
             </table>
-            <div className=' text-left'>
+            <div className=' m-4 text-left'>
                 <h1 className='font-GTWalsheim text-lg'>MONDAY:</h1>
                 <ul className='text-left gap-2 mb-4'>
                     <li>11am - Out & About</li>
@@ -132,61 +132,63 @@ const Schedule = () => {
                     <li>9pm - Radio Dublino</li>
                     <li>10pm - Tracks with Noel & Eoin</li>
                 </ul>
-
-                <div className='hidden'>
-                     THURSDAY:
-
-                11am - The Marlon Show
-                12pm - Mike @ the mic
-                1pm - Wellbeing For Everyday Life
-                2pm - The Sandyford Shedders
-                3pm - Apna Radio
-                4pm - Midweek Mix
-                5pm - News
-                5:30pm - Southside Players
-                6pm - Dramatic Dublin
-                6:30pm - Interlinks
-                7pm - Music
-                8pm - Ult Cruze
-                10pm - New Irish Music Hour
-
-                FRIDAY:
-
-                11am - Friday Forum
-                12pm - Music
-                2pm - Let's Get Social
-                3pm - Sweep of the Week
-                4pm - The View From Here
-                5pm - News
-                5:30pm - Music
-                6pm - Ray M's Country Sounds
-                7pm - Rhyme & Reason
-                7:30pm - The Jazzman
-                9pm - The Power of Dreams
-
-                SATURDAY:
-
-                11am - Sweep of the Week
-                12pm - RTE Doc On One
-                1pm - The Sandyford Shedders
-                2pm - Shuffling Through The Years
-                3:30 - Shout!
-                4pm - Apna Radio
-                6pm - Music Bonanza
-                7pm - Urban Smooth
-                9pm - Music
-
-                SUNDAY:
-                11am - Ceol go Leor
-                1pm - Take the A Train
-                3pm - Memory Lane
-                4pm - Classic Sunday
-                5:30pm - Vision
-                6pm - Music
-                7pm - Eclectic Chair
-                8pm - Sunday Night with Keith
-                10pm - Music
-                </div>
+                <h1 className='font-GTWalsheim text-lg'>THURSDAY:</h1>
+                <ul className='text-left gap-2 mb-4'>
+                    <li>11am - The Marlon Show</li>
+                    <li>12pm - Mike @ the mic</li>
+                    <li>1pm - Wellbeing For Everyday Life</li>
+                    <li>2pm - The Sandyford Shedders</li>
+                    <li>3pm - Apna Radio</li>
+                    <li>4pm - Midweek Mix</li>
+                    <li>5pm - News</li>
+                    <li>5:30pm - Southside Players</li>
+                    <li>6pm - Dramatic Dublin</li>
+                    <li>6:30pm - Interlinks</li>
+                    <li>7pm - Music</li>
+                    <li>8pm - Ult Cruze</li>
+                    <li>10pm - New Irish Music Hour</li>
+                </ul>
+                <h1 className='font-GTWalsheim text-lg'>FRIDAY:</h1>
+                <ul className='text-left gap-2 mb-4'>
+                    <li>11am - Friday Forum</li>
+                    <li>12pm - Music</li>
+                    <li>2pm - Let's Get Social</li>
+                    <li>3pm - Sweep of the Week</li>
+                    <li>4pm - The View From Here</li>
+                    <li>5pm - News</li>
+                    <li>5:30pm - Music</li>
+                    <li>6pm - Ray M's Country Sounds</li>
+                    <li>7pm - Rhyme & Reason</li>
+                    <li>7:30pm - The Jazzman</li>
+                    <li>9pm - The Power of Dreams</li>
+                </ul>
+                <h1 className='font-GTWalsheim text-lg'>SATURDAY:</h1>
+                <ul className='text-left gap-2 mb-4'>
+                    <li>11am - Sweep of the Week</li>
+                    <li>12pm - RTE Doc On One</li>
+                    <li>1pm - The Sandyford Shedders</li>
+                    <li>2pm - Shuffling Through The Years</li>
+                    <li>3:30 - Shout!</li>
+                    <li>4pm - Apna Radio</li>
+                    <li>6pm - Music Bonanza</li>
+                    <li>7pm - Urban Smooth</li>
+                    <li>9pm - Music</li>
+                    <li>7:30pm - The Jazzman</li>
+                    <li>9pm - The Power of Dreams</li>
+                </ul>
+                <h1 className='font-GTWalsheim text-lg'>SUNDAY:</h1>
+                <ul className='text-left gap-2 mb-4'>
+                    <li>11am - Ceol go Leor</li>
+                    <li>1pm - Take the A Train</li>
+                    <li>3pm - Memory Lane</li>
+                    <li>4pm - Classic Sunday</li>
+                    <li>5:30pm - Vision</li>
+                    <li>6pm - Music</li>
+                    <li>7pm - Eclectic Chair</li>
+                    <li>8pm - Sunday Night with Keith</li>
+                    <li>10pm - Music</li>
+                    
+                </ul>
 
             </div>
         </>

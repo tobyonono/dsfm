@@ -260,7 +260,7 @@ const OurStory = () => {
                         <div className="ml-auto mr-auto p-4 sm:p-8 bg-white max-w-5xl">
                             <div className="max-w-none text-base">
                                 <h1 className="font-GTWalsheim text-5xl mb-6 font-bold underline">Our Story</h1>
-                                
+
                             </div>
                             <section className=" h-full w-full  bg-white text-black text-left text-lg font-calibre font-light">
                                 <div className="shadow-lg rounded-3xl p-8 border border-2">
@@ -490,20 +490,20 @@ const OurStory = () => {
                                     <div>
                                         <img src={OurStoryImages[20]} className="float-right mx-4 mb-4 h-96" />
                                         <p className="mb-4">We moved to The Old School, Nutgrove, and operated successfully for several years. But finally, after years of negotiation, and agreeing space and facilities , we moved into the new Dundrum Town Centre  with fine new studios that you could bring a visitor into without wincing…. Yet again, in our fifth location, the empty rooms were wired and equipped by Mike and Dave of DSFM, and linked to a new aerial on top of the Centre.</p>
-                                        <p className="mb-4">So, after various administrative delays (not ours OR the Town Centre)  we finally got on air in DTC on Thurs. 20th September 2007 – without losing one day of broadcasting. And, we are there ever since! We are extremely grateful to the Town Centre and also both FAS and POBAL who fund part-time and fulltime staff, who are learning all about radio.</p>
-                                        <p className="mb-4">These skills have already helped several staff to go on to employment in the sector.</p>
-                                        <p className="mb-4">Broadcasting hours have been extended, and we are now on-air from 11am to 11pm, and 34 hours online 365 days a year, with a little help from our computerised scheduling equipment – an absolute blessing on holiday weekends and Christmas Day!</p>
-                                        <p className="mb-4">Our programmes now go worldwide – streamed via the internet (chocolates arrived from a ‘Classic Sunday’ listener in Canada) and many are also on Podcast. (i.e available for playback).</p>
-                                        <p className="mb-4">Hard to believe that it all started with people in school desks interviewing the person beside them for practice…</p>
-                                        <p className="mb-4">Transition-year students join in programmes and get invaluable work experience. Media students get their class projects on air. Kids get to broadcast to mammys & neighbours. Retired people discuss their concerns & play their music.</p>
-                                        <p className="mb-4">Young trainee journalists cover local news stories and then read them on air. Songwriters and emerging bands get their first break here – our ’On The Verge’ programme is a mecca for new Dublin talent. Ethnic groups broadcast in their own language (Korean, Indian, Polish, Spanish)</p>
-                                        <p className="mb-4">Writers and poets display their wares; a ‘DJ for a Day’ spot allowed anyone to come on and play an hour of their music. They arrived, fizzing with excitement!</p>
-                                        <p className="mb-4">Real  people doing things that are important to themselves</p>
-                                        <p className="mb-4">Real personal development in action.</p>
-                                        <p className="mb-4">The community listens to it’s life being lived…life gets a bit better for everyone.</p>
-                                        <p className="mb-4">And….. like the Hokey Kokey……..that’s what it’s all about!</p>
+                                        <p className="mb-4">So, after various administrative delays (not ours OR the Town Centre)  we finally got on air in DTC on Thurs. 20th September 2007 – without losing one day of broadcasting. And, we are there ever since!</p>
+                                        <p className="mb-4">The following year, in 2008, Dublin South FM was granted a ten-year broadcasting license by the Broadcasting Commission of Ireland.
+                                            In 2011, the station increased its daily broadcasting output from 4 pm - 9 pm to 11 am - 11 pm. That same year, Dublin South FM launched its online streaming service, which enabled listeners to tune in from anywhere in the world.</p>
                                         <img src={OurStoryImages[21]} className=" mx-auto mb-4" />
 
+                                    </div>
+                                    <div className="shadow-lg rounded-3xl p-8 border border-2 h-full overflow-hidden">
+
+                                        <h2 className="font-GTWalsheim text-2xl mb-4 underline">TODAY</h2>
+                                        <p className="mb-4">In June 2020, to mark the station's 25th anniversary as a licensed broadcaster, Dublin South FM began broadcasting 24/7 online.
+                                            2020 also saw Dublin South FM commence a long-overdue studio upgrade project during the Covid19 lockdown. With assistance of DLR County Council through their Community Grants Scheme, and in the true spirit of Community Radio, the studio upgrade project was planned, designed and built entirely by members of the Tús Community Employment Scheme, who pooled their collective talents and expertise to build a state-of-the-art broadcasting studio for our community.</p>
+                                        <p className="mb-4">Today, the station broadcasts 84 hours of programmes each week from its studios in Dundrum Town Centre that showcases real people making a difference in our community.   We provide specialist cultural programming for minority groups such as the LGBT+ community, or various ethnic and religious minority groups from Europe, Africa, and Asia.  Dublin South FM promotes local artists and events, such as local theatre groups, writers and musicians. We also promote local events and activities to encourage greater inclusion and participation from our elderly, and we provide those in our community with disabilities with the opportunity to produce radio programmes with assistance from our helpful staff.</p>
+
+                                       <p className='mb-4'>Our aim is to enhance community cohesion through community participation in our programmes, and the distribution of information Dublin South FM provides to our circa 3,000 daily listeners, by focusing on socially beneficial programming and supporting and mentoring the 80+ volunteers who produce it.</p>
                                     </div>
                                 </div>
                             </section>
